@@ -1,5 +1,5 @@
 public class Circle {
-    public double radius;
+    private double radius;
 
     //Constructor methods have "method overloading"
     public Circle() {

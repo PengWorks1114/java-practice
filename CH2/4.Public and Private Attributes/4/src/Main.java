@@ -6,6 +6,6 @@ public class Main {
         System.out.println(c1.radius);
         c1.radius = 20;
         System.out.println(c1.radius);
-
+//如果在Circle.class裡面最上面把public改為Private這邊就不能去拿到他的數值
     }
 }
