@@ -1,5 +1,9 @@
+package Shapes;
+
 public class Circle {
     private double radius;
+    private int i; //i's scopee is the whole Shapes.Circle.java
+
     public Circle() {
         radius = 1.0;
     }
@@ -10,5 +14,14 @@ public class Circle {
 
     public double getArea() {
         return radius * radius * Math.PI;
+    }
+
+    public void setI() {
+        int i = 100;
+        //i's scope is inside the method setI()
+    }
+
+    public void accessI() {
+        System.out.println(i);
     }
 }
