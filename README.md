@@ -11,9 +11,3 @@ This repository is created to document my Java learning journey, including basic
 
 ## 📁 目錄結構 / ディレクトリ構成 / Directory Structure
 
-```bash
-java-practice/
-├── basic/         # 基本語法 / 基本文法 / Basic syntax
-├── oop/           # 物件導向 / オブジェクト指向 / Object-Oriented Programming
-├── practice/      # 綜合練習 / 総合練習 / Practice problems
-└── README.md      # 專案說明 / 説明ファイル / Project description
