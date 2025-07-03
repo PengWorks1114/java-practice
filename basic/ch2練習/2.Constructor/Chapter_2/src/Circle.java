@@ -1,8 +1,7 @@
-package Shapes;
-
 public class Circle {
+    //Circle Class's consructor
     private double radius;
-    private int i; //i's scopee is the whole Shapes.Circle.java
+    private int i; //i's scopee is the whole Circle.java
 
     public Circle() {
         radius = 1.0;
