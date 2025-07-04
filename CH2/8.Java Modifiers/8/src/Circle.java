@@ -1,16 +1,24 @@
 public class Circle {
-    private double radius;
-
-    public Circle() {
-        this(1.0);
-    }
+    //fields are usually private
+    public double radius;
 
     public Circle(double radius) {
-        this.radius = radius;
+
     }
 
     public double getArea() {
-        return Math.PI * Math.pow(this.radius, 2);
+        this.printFormula();
+        return this.radius * this.radius;
+    }
+
+    // methods are usually public
+    public double setRadius(double radius) {
+        this.radius = radius;
+        return radius;
+    }
+
+    private void printFormula() {
+        System.out.println("Circle area formula is pi * r square");
     }
 
 }
